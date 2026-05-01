@@ -1,4 +1,3 @@
-// simulasi smarthome, alat data dasar yg  sm, ttpi fungsi n fitur yg brbeda sesuai dgn alatnya
 abstract class PerangkatElektronik { 
     String merk;
     int dayaListrik;

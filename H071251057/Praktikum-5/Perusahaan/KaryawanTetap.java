@@ -13,7 +13,7 @@ public class KaryawanTetap extends Karyawan {
         return gajiPokok + (tunjanganMakan * getJumlahKehadiran());
     }
 
-    public double hitungGaji(double bonusKinerja) {  // method overloading
+    public double hitungGaji(double bonusKinerja) {  
         return hitungGaji() + bonusKinerja;
     }
 }

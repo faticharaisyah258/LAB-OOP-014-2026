@@ -1,6 +1,5 @@
 public class Main2 {
     public static void main(String[] args) {
-        // membuat objek
         SmartLamp lampu = new SmartLamp("Philips", 12);
         SmartCctv cctv = new SmartCctv("Eyesec", 20 );
         SmartSpeaker speaker = new SmartSpeaker("Jbl", 15);

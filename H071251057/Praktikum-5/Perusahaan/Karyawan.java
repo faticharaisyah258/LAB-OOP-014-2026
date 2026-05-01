@@ -1,5 +1,4 @@
-// menghitung gaji dari 2 mcm jenis krywan brdsrkn khdiran, bonus, menggunakan aturan gaji sesuai jenis krywn
-abstract class Karyawan {  //
+abstract class Karyawan {  
     private String nama;
     private String idKaryawan;
     private int jumlahKehadiran;
@@ -10,7 +9,7 @@ abstract class Karyawan {  //
         this.jumlahKehadiran = 0;
     }
 
-    public String getNama(){ // mnpilkn nilai atb priv 
+    public String getNama(){ 
         return nama;
     }
 
@@ -27,5 +26,4 @@ abstract class Karyawan {  //
     }
 
     public abstract double hitungGaji();
-    // tiap subclass beda cara mengitung hitung gajinya
 }

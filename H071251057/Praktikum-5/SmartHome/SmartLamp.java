@@ -11,7 +11,7 @@ public class SmartLamp extends PerangkatElektronik implements KontrolSuara {
 
     @Override
     public void prosesPerintah(String perintah) {
-        if (perintah.equalsIgnoreCase("NYALA")) { //hrf bsr kcil tdk ad bedny
+        if (perintah.equalsIgnoreCase("NYALA")) { 
             System.out.println("Lampu berpijar!");
         } else {
             System.out.println("Perintah tidak dikenali.");
