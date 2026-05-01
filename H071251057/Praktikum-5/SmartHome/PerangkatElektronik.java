@@ -13,8 +13,7 @@ abstract class PerangkatElektronik {
         System.out.println(merk + " menggunakan daya sebesar " + dayaListrik + " watt");
     }
 }
-// method tnp isi
-// yg mnggunkn hrs mngisi
+
 interface  InteraksiInternet {
     void hubungkanWifi();
 }
