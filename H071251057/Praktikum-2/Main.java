@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Masukkan energi Daisy: ");
         int energiDaisy = input.nextInt();
 
-        System.out.print("Masukkan energi Lily: ");
+        System.out.print("Masukkan energi Lily: "); 
         int energiLily = input.nextInt();
         // Membuat objek farmer
         Farmer farmer1 = new Farmer("Daisy", energiDaisy, strawberry);
